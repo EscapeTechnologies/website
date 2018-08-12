@@ -1,0 +1,35 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: grey;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+p {
+    font-family: Kollektif;
+}
+
+@media (max-width: 965px) {
+  .navbar-nav {
+      display: none;
+  }
+}
+
+@media (min-width: 966px) {
+    .dropdown {
+        display: none;
+    }
+}
+
+.construction {
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+}
